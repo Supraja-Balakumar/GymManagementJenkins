@@ -19,7 +19,7 @@ import com.supraja.restapp.service.MembershipService;
 
 @RestController
 @RequestMapping("/membership")
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="http://localhost:3000/")
 public class MembershipController 
 {
 	@Autowired

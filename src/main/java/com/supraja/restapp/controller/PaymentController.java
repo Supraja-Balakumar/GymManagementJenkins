@@ -19,7 +19,7 @@ import com.supraja.restapp.service.PaymentService;
 
 @RestController
 @RequestMapping("/payment")
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="http://localhost:3000/")
 public class PaymentController 
 {
 	@Autowired

@@ -21,7 +21,7 @@ import com.supraja.restapp.serviceimpl.EmailServiceimpl;
 
 @RestController
 @RequestMapping("/trainers")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class TrainersController {
 	@Autowired
 	private TrainersService service;

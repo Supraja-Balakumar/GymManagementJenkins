@@ -19,7 +19,7 @@ import com.supraja.restapp.service.ClassesService;
 
 @RestController
 @RequestMapping("/slots")
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="http://localhost:3000/")
 public class ClassesController 
 {
 	@Autowired
